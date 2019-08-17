@@ -12,6 +12,17 @@ if A is 3 X 3 Matrix then
 A = d e f
     g h i
     
-|A| = a(ei - hf) - b(di - gf) - c(dh - ge)
+|A| = a(ei - hf) - b(di - gf) + c(dh - ge)
+
+Note :- Pattern is +,-,+,-...
 
 EigenValues and Eigen Vectors.
+
+EigenValues :-
+
+det(A - λI) = 0 // where λ is EigenValues and I is Identity Matrix
+
+EigenVectors :-
+
+For each eigenvalues λ we have 
+    (A - λI)x = 0 // where x is the eigenvectors of each eigenvalues λ
